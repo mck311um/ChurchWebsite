@@ -1,0 +1,48 @@
+/* Home */
+
+.home .countdown-text {
+  text-align: center;
+}
+
+.countdown-text h2 {
+  font-size: 3rem;
+}
+
+.countdown-text h3 {
+  font-size: 1.5rem;
+}
+
+.home section {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgb(239, 232, 232);
+  border-radius: 10px;
+}
+
+.home section .MuiStack-root {
+  display: flex;
+  justify-content: center;
+}
+
+.home section .MuiButton-containedPrimary {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  background-color: #008080;
+  color: #ffffff;
+}
+
+.home section .MuiButton-text {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  color: #800000; /* Use #800000 as text color */
+}
+
+.home section .MuiButton-containedPrimary:hover {
+  background-color: #005555;
+}
+
+.home section .MuiButton-text:hover {
+  color: #000;
+}
